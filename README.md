@@ -2,15 +2,10 @@
 The purpose of "Mask Check" is to provide a simple and easy-to-use tool for checking if people in images and videos are wearing face masks
 
 # Installation
-- Install the required dependecies
+Simply run 
 ` pip install -r requirements.txt `
-
-- Download model weights
-` bash setup.sh `
-
-- Launch Streamlit app
-` streamlit run mask_check.py `
-
+<br>
+. This will download model weights, install requirements, and launch app
 # Usage
 
 The application can be run in three distinct modes: Image mode, Video mode, and Webcam mode (which is a subset of Video mode). In Image mode, you upload an image, and the application will automatically detect and return the relevant results. 
