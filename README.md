@@ -4,10 +4,10 @@ The purpose of "Mask Check" is to provide a simple and easy-to-use tool for chec
 # Installation
 - Install the required dependecies
 ` pip install -r requirements.txt `
-<br>
+
 - Download model weights
 ` bash setup.sh `
-<br>
+
 - Launch Streamlit app
 ` streamlit run mask_check.py `
 
