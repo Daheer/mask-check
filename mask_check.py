@@ -97,7 +97,6 @@ if app_mode == 'About the App':
     # Installation
     Simply run
     ` bash setup.sh `
-    \n
     . This will download model weights, requirements and launch the app
     # Usage
     The application can be run in three distinct modes: Image mode, Video mode, and Webcam mode (which is a subset of Video mode). In Image mode, you upload an image, and the application will automatically detect and return the relevant results. 
