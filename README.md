@@ -4,7 +4,6 @@ The purpose of "Mask Check" is to provide a simple and easy-to-use tool for chec
 # Installation
 Simply run 
 ` pip install -r requirements.txt `
-<br>
 . This will download model weights, install requirements, and launch app
 # Usage
 
