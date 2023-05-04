@@ -22,7 +22,6 @@ color_dict = {
     'no-mask': (0, 0, 255)
 }
 
-@st.cache_data
 def load_model():
   model = YOLO(MODEL_PATH)
   return model
