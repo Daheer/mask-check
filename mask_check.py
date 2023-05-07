@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 from ultralytics import YOLO
 from torch.cuda import is_available
+import io
 
 DEMO_IMAGE = 'demo.jpg'
 DEMO_VIDEO = 'demo.mp4'
@@ -186,6 +187,12 @@ elif app_mode == 'Check on Image':
 
   st.subheader('Output Image')
   st.image(out_image, channels = 'BGR', use_column_width = True)
+  
+  pil_out_image = Image.fromarray(cv2.cvtColor(out_image, cv2.COLOR_BGR2RGB))
+  out_image_bytes = io.BytesIO()
+  pil_out_image.save(out_image_bytes, format='JPEG')
+
+  st.download_button('Download', data=out_image_bytes.getvalue(), file_name='out_image.jpg')
 
 elif app_mode == 'Check on Video':
 
