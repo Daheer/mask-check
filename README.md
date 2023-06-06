@@ -12,7 +12,7 @@ The application can be run in three distinct modes: Image mode, Video mode, and 
 In Video mode, users are able to upload a video file and receive corresponding results. Webcam mode, which is nested within Video mode, enables users to run the model on input data captured directly from a webcam. Outputs from the Video mode and Webcam mode can be saved by checking the 'Record' checkbox.
 
 The app is available and can be accessed via two platforms
-- [`Hugging Face Spaces`](https://https://deedax-mask-check.hf.space/)
+- [`Hugging Face Spaces`](https://deedax-mask-check.hf.space/)
 - [`Render`](https://mask-check.onrender.com/)
 
 # Features
